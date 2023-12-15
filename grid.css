@@ -1,0 +1,95 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+}
+h2{
+background-color: rgb(31, 31, 88);
+text-align: center;
+color: aliceblue;
+padding: 1rem;
+text-transform: capitalize;
+}
+h2 > span{
+    color: red;
+}
+nav ul{
+    display:grid;
+    justify-content:end; 
+    grid-auto-flow: column;   
+    column-gap: 5rem;
+    padding: 1rem 3rem;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.content{
+    padding:10rem 7rem  ;
+    height: 200px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0448/1856/3230/files/WhatsApp_Image_2023-03-29_at_8.44.11_AM_1800x.jpg?v=1680764908);
+   background-size: cover;
+}
+.content h5{
+    padding: 1rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+   
+}
+h1{
+   letter-spacing:4px ;
+    
+}
+
+h4{
+    padding: 1rem;
+    background-color:black ;
+    color: aliceblue;
+    width: 80PX;
+
+}
+h1,h5{
+    color: rgb(9, 9, 9);
+    font-size: 40px;
+}
+.items{
+    height: 300px;
+    
+}
+h3{
+    text-align: center;
+    padding: 3rem;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.items img{
+    padding:40px 50px ;
+    grid-auto-flow: column;
+    
+}
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+p{
+    padding:20px ;
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.socialicons{
+    display: flex;
+    padding-left:100px 200px;
+    justify-content: space-evenly;
+    font-size: 20px;
+   
+    
+}
+footer{
+    text-align: center;
+    background-color: rgb(28, 28, 78);
+    color: aliceblue;
+    height: 50px;
+    
+}
+
+
